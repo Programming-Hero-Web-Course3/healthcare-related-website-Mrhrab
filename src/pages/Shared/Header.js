@@ -5,10 +5,10 @@ import { Badge, Container, Nav, Navbar, Offcanvas } from 'react-bootstrap';
 const Header = () => {
     return (
         <>
-     <Navbar bg="light" expand={false}>
+     <Navbar fluid sticky="top" bg="light"  expand={false} >
   <Container fluid>
-    <Navbar.Brand href="#">DELIGHT SUN CLINIC <Badge>DSC+</Badge></Navbar.Brand>
-    <Navbar.Toggle aria-controls="offcanvasNavbar" />
+    <Navbar.Brand href="#">DAILY SUN CLINIC </Navbar.Brand>
+    <Navbar.Toggle  aria-controls="offcanvasNavbar" />
     <Navbar.Offcanvas
       id="offcanvasNavbar"
       aria-labelledby="offcanvasNavbarLabel"
@@ -27,6 +27,7 @@ const Header = () => {
           <Nav.Link as={Link} to ="/doctors#doctors">Doctors</Nav.Link>
           <Nav.Link as={Link} to ="/pharmacy#pharmacy">Pharmacy</Nav.Link>
           <Nav.Link as={Link} to ="/login#login">Login</Nav.Link>
+          <Nav.Link as={Link} to ="/ambulance#ambulance">Ambulance</Nav.Link>
           <Nav.Link as={Link} to ="/aboutUs#aboutUs">About Us</Nav.Link>
           <Nav.Link as={Link} to ="/QnA#QnA">Q&A</Nav.Link>
         </Nav>

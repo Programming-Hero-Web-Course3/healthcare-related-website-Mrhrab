@@ -11,6 +11,7 @@ import Login from './pages/Login/Login';
 import AboutUs from './pages/AboutUs/AboutUs';
 import QnA from './pages/QnA/QnA';
 import NotFound from './pages/NotFound/NotFound';
+import Ambulance from './Ambulance/Ambulance';
 
 function App() {
   return (
@@ -45,6 +46,10 @@ function App() {
 
           <Route  path="/login">
             <Login></Login>
+          </Route>
+
+          <Route  path="/ambulance">
+            <Ambulance></Ambulance>
           </Route>
 
           <Route  path="/aboutUs">
