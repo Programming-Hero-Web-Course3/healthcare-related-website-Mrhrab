@@ -1,0 +1,76 @@
+[
+  
+  {
+    "key": "615afc73d55369bc8c5cef00",
+    "picture": "https://i.ibb.co/WBLbrgf/doctor-1.png",
+    "name": "French Course",
+    "specialty": "Infectious disease doctor",
+    "address": "A few of the main duties of a doctor are performing diagnostic tests, recommending specialists for patients, document patient's medical history, and educating patients. They also have to administer vaccines and other treatments. Some of the jobs titles that a doctor could grow into are head of research or hospital president.",
+    "tags": [
+      "ad",
+      "dolor",
+      "excepteur",
+      "eiusmod",
+      "deserunt",
+      "anim",
+      "quis"
+    ],
+    "greeting": "Hello, Merritt Moran! You have 7 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "key": "615afc737799801d3643fc3b",
+    "picture": "https://5.imimg.com/data5/KU/UK/ZT/GLADMIN-54314292/selection-229-500x500.png",
+    "name": "Hindi Course",
+    "specialty": "Ophthalmologists",
+    "address": "Here at XYZ Inc., we are the leading company in our industry in the Capital City area. We're pleased to have a 3.8 Glassdoor rating from our employees. We are hiring an experienced Doctor to help us keep growing. If you're dedicated and ambitious, XYZ Inc. is an excellent place to grow your career. Don't hesitate to apply.",
+    "tags": [
+      "nisi",
+      "qui",
+      "velit",
+      "quis",
+      "deserunt",
+      "aliqua",
+      "veniam"
+    ],
+    "greeting": "Hello, Ernestine Mckay! You have 7 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "key": "615ae76eef1e123747aaaf9c",
+    "picture": "https://www.mengutas.com/en/wp-content/uploads/2014/12/German-Course.jpg",
+    "name": "Detusch Course",
+    "specialty": "Endocrinologists",
+    "address": "423 Frank Court, Salix, Minnesota, 5771",
+    "about": "Learn German with the international market leader for German tuition. Whether you are in Germany, in your home country or online – the Goethe-Institut is your qualified partner. We have highly qualified teachers, the latest teaching methods, intensive mentoring and advice, as well as a course level system that is internationally valid.",
+    "tags": [
+      "laborum",
+      "anim",
+      "enim",
+      "incididunt",
+      "Lorem",
+      "officia",
+      "id"
+    ],
+    "greeting": "Hello, Salinas Buck! You have 5 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "key": "615ae76eba6edbfc0b1f63ba",
+    "picture": "https://i.ytimg.com/vi/MrOiQhD4GLM/maxresdefault.jpg",
+    "name": "Basic English",
+    "specialty": "Cardiologists",
+    "address": "The main duties of a doctor are performing diagnostic tests, recommending specialists for patients, document patient's medical history, and educating patients. They also have to administer vaccines and other treatments. Some of the jobs titles that a doctor could grow into are head of research or hospital. ",
+    "tags": [
+      "pariatur",
+      "Lorem",
+      "ad",
+      "magna",
+      "enim",
+      "sunt",
+      "amet"
+    ],
+    "greeting": "Hello, Ebony Mayo! You have 5 unread messages.",
+    "favoriteFruit": "apple"
+  }
+]

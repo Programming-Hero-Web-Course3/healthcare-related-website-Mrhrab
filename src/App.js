@@ -5,13 +5,14 @@ import Header from './pages/Shared/Header';
 import Home from './pages/Home/Home';
 import Services from './pages/Services/Services';
 import Specials from './pages/Speicals/Specials';
-import Doctors from './pages/Doctors/Doctors';
 import Pharmacy from './pages/Pharmacy/Pharmacy';
 import Login from './pages/Login/Login';
 import AboutUs from './pages/AboutUs/AboutUs';
 import QnA from './pages/QnA/QnA';
 import NotFound from './pages/NotFound/NotFound';
 import Ambulance from './Ambulance/Ambulance';
+import Footer from './pages/Shared/Footer/Footer';
+import Appointment from './pages/Appointment/Appointment/Appointment';
 
 function App() {
   return (
@@ -32,12 +33,12 @@ function App() {
             <Services></Services>
           </Route>
 
-          <Route  path="/specials">
-            <Specials></Specials>
+          <Route  path="/appointment/:appointmentId">
+            <Appointment></Appointment>
           </Route>
 
-          <Route  path="/doctors">
-            <Doctors></Doctors>
+          <Route  path="/specials">
+            <Specials></Specials>
           </Route>
 
           <Route  path="/pharmacy">
@@ -66,7 +67,8 @@ function App() {
 
         </Switch>
 
-         {/* <Footer></Footer> */}
+         <Footer></Footer>
+
       </Router>
     </div>
   );

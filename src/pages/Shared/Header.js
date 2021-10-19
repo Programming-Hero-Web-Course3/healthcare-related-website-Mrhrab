@@ -23,8 +23,9 @@ const Header = () => {
           <p><small>24h Hotline: +393512295629</small></p>
           <Nav.Link as={Link} to ="/home#home">Home</Nav.Link>
           <Nav.Link as={Link} to ="/services#services">Services</Nav.Link>
+          <Nav.Link as={Link} to ="/appointment#appointment">Appointment</Nav.Link>
           <Nav.Link as={Link} to ="/specials#specials">Specials</Nav.Link>
-          <Nav.Link as={Link} to ="/doctors#doctors">Doctors</Nav.Link>
+          
           <Nav.Link as={Link} to ="/pharmacy#pharmacy">Pharmacy</Nav.Link>
           <Nav.Link as={Link} to ="/login#login">Login</Nav.Link>
           <Nav.Link as={Link} to ="/ambulance#ambulance">Ambulance</Nav.Link>
