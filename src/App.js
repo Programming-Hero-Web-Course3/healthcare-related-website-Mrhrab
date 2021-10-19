@@ -13,11 +13,14 @@ import NotFound from './pages/NotFound/NotFound';
 import Ambulance from './Ambulance/Ambulance';
 import Footer from './pages/Shared/Footer/Footer';
 import Appointment from './pages/Appointment/Appointment/Appointment';
+import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './pages/Login/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      <AuthProvider>
+          <Router>
         <Header></Header>
 
         <Switch>
@@ -29,9 +32,11 @@ function App() {
             <Home></Home>
           </Route>
 
-          <Route  path="/services">
+          <PrivateRoute  path="/services">
+            
             <Services></Services>
-          </Route>
+          
+          </PrivateRoute>
 
           <Route  path="/appointment/:appointmentId">
             <Appointment></Appointment>
@@ -70,6 +75,7 @@ function App() {
          <Footer></Footer>
 
       </Router>
+      </AuthProvider>
     </div>
   );
 }

@@ -1,8 +1,9 @@
 import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="bg-black p-5 mt-5 ">
+        <div className="bg-black p-5  allFooter ">
             <div>
                 <h5 className="text-white">all rights reserved</h5>
             <p className="text-white">94 alowal tower,Milano MI 20131</p>

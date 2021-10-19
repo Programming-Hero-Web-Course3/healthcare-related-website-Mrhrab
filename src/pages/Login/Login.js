@@ -1,8 +1,10 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Container, Form } from 'react-bootstrap';
+import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
+    const { signInUsingGoogle } = useAuth(); 
     return (
         <div id="login">
             <Container>
@@ -29,7 +31,7 @@ const Login = () => {
                     
                     <br />
                     <p>OR</p>
-                    <Button variant="primary" type="submit" className="">
+                    <Button onClick={signInUsingGoogle} variant="primary" type="submit" className="">
                         Login With Google
                     </Button>
                 </Form>
