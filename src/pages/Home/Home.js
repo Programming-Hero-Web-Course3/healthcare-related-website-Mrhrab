@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, CardGroup, Carousel, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import Banner from './Banner/Banner';
 
@@ -12,6 +13,15 @@ const Home = (props) => {
     return (
         <div id="home" >
             <Banner></Banner>
+
+             <Container className="mt-5">
+                  
+                <Container>
+                    <Link to="/services"><h4>Go To SERVICES</h4></Link>
+                </Container>
+            </Container>
+
+
             <Container>
                 <h1 className="mt-5">World Famous Doctors</h1>
                 <CardGroup className="mt-5"> 
@@ -48,6 +58,8 @@ const Home = (props) => {
                     </CardGroup>
 
             </Container>
+
+           
 
             <Container>
                  <h1 className="mt-5">Our experts works at top hospitals around the world </h1>

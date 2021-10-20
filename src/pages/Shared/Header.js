@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
-import { Container, Nav, Navbar, Offcanvas } from 'react-bootstrap';
+import { Badge, Container, Nav, Navbar, Offcanvas } from 'react-bootstrap';
 import useAuth from '../../hooks/useAuth';
 import Button from '@restart/ui/esm/Button';
 
@@ -11,7 +11,7 @@ const Header = () => {
         <>
      <Navbar fluid sticky="top" bg="light"  expand={false} >
   <Container fluid>
-    <Navbar.Brand href="#">DAILY SUN CLINIC </Navbar.Brand>
+    <Navbar.Brand href="#">DAILY SUN CLINIC <Badge>DSC+</Badge></Navbar.Brand>
     <Navbar.Toggle  aria-controls="offcanvasNavbar" />
     <Navbar.Offcanvas
       id="offcanvasNavbar"
@@ -19,7 +19,7 @@ const Header = () => {
       placement="end"
     >
       <Offcanvas.Header closeButton>
-        <Offcanvas.Title id="offcanvasNavbarLabel">DSC+</Offcanvas.Title>
+        <Offcanvas.Title id="offcanvasNavbarLabel"><Badge>DSC+</Badge></Offcanvas.Title>
       </Offcanvas.Header>
       <Offcanvas.Body>
         <Nav className="justify-content-end flex-grow-1 pe-3">
@@ -31,7 +31,7 @@ const Header = () => {
           <Nav.Link as={Link} to ="/specials#specials">Specials</Nav.Link>
           {user?.email ?
             <Button onClick={logOut} variant="danger">LogOut</Button> :
-            <Nav.Link as={Link} to ="/login#login">Login</Nav.Link> }
+            <Nav.Link as={Link} to ="/login#login">Login/Register</Nav.Link> }
           <Nav.Link as={Link} to ="/ambulance#ambulance">Ambulance</Nav.Link>
           <Nav.Link as={Link} to ="/aboutUs#aboutUs">About Us</Nav.Link>
           <Nav.Link as={Link} to ="/QnA#QnA">Q&A</Nav.Link>

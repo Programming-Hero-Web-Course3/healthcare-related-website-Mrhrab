@@ -14,8 +14,8 @@ const Banner = () => {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>Find out heart disease</h3>
+      <p>the leading cause of death in the United States</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -26,8 +26,8 @@ const Banner = () => {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3>Emergency Service</h3>
+      <p>DSC+ provides local, comprehensive hospital bed repair services, including inspection and preventive maintenance, to OEM standards.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -38,8 +38,8 @@ const Banner = () => {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3>Covid Vaccination</h3>
+      <p>We provide covid vaccination for free of cost throughout the country</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

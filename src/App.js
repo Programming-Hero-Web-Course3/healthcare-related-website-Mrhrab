@@ -46,25 +46,21 @@ function App() {
             <Specials></Specials>
           </Route>
 
-          <Route  path="/pharmacy">
-            <Pharmacy></Pharmacy>
-          </Route>
-
           <Route  path="/login">
             <Login></Login>
           </Route>
 
-          <Route  path="/ambulance">
+          <PrivateRoute  path="/ambulance">
             <Ambulance></Ambulance>
-          </Route>
+          </PrivateRoute>
 
           <Route  path="/aboutUs">
             <AboutUs></AboutUs>
           </Route>
 
-          <Route  path="/Qna">
-            <QnA></QnA>
-          </Route>
+          <PrivateRoute path="/Qna">
+              <QnA></QnA>
+          </PrivateRoute>  
 
           <Route  path="*">
             <NotFound></NotFound>
