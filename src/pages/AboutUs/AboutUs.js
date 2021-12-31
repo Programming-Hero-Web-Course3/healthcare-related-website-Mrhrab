@@ -6,7 +6,7 @@ const AboutUs = () => {
         <div>
             <Container>
                 <h3>Purpose</h3>
-                <p>he purpose of this paper is to explore the current status of HACCP across the food chain with particular reference to the hospitality industry. It is the first article in the second Worldwide Hospitality and Tourism Themes issue of the International Journal of Contemporary Hospitality Management presenting a new method of HACCP for the hospitality industry and proof of its utility.</p>
+                <p>he purpose of this paper is to explore the current status  of HACCP across the food chain with particular reference to the hospitality industry. It is the first article in the second Worldwide Hospitality and Tourism Themes issue of the International Journal of Contemporary Hospitality Management presenting a new method of HACCP for the hospitality industry and proof of its utility.</p>
                 <br />
                 <br />
                 <h3>Design/methodology/approach</h3>
